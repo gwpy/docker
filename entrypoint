@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# activate the gwpy environment
+source /opt/conda/etc/profile.d/conda.sh
+conda activate gwpy
+
+# run the user command
+/bin/bash -c "$@"
